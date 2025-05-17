@@ -46,6 +46,7 @@ function App() {
                 imageUrl={card.url}
                 name={card.breeds[0].name}
                 origin={card.breeds[0].origin}
+                wikipediaLink={card.breeds[0].wikipedia_url}
               />
             );
           })}

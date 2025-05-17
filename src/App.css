@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-
-
 body {
   background-color: #212121;
   object-fit: contain;
@@ -13,6 +11,11 @@ img {
   object-fit: contain;
 }
 .card__container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 10px;
+}
+.search__conatiner {
   margin: 0 auto;
   max-width: 1440px;
   padding: 10px;
@@ -61,7 +64,6 @@ img {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   padding-top: 10px;
-
 }
 .aboutCat {
   position: absolute;
